@@ -7,6 +7,7 @@ model = LinearRegression(fit_intercept = False)
 model.fit(X,y)
 
 print(120 * 0.621371)
+print(model.coef_)
 
 prediction = model.predict([[120]])
 
