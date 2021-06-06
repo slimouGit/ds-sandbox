@@ -8,6 +8,7 @@ model.fit(X,y)
 
 print(120 * 0.621371)
 print(model.coef_)
+print(model.intercept_)
 
 prediction = model.predict([[120]])
 
